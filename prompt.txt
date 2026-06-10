@@ -1,0 +1,67 @@
+================================================================================
+PROMPT 1:
+================================================================================
+Problem Statement: Write a 2d graphics editor using * and _.
+
+Write functions to draw a circle, rectangle, line, and triangle.
+You should be able to
+      add objects to the picture,
+      delete objects from the picture, and
+      modify objects in the picture.
+Use a 2d array of characters to store the picture.
+Write a function to display the picture.
+
+Additionally, you can use the ncurses package to create menus and draw pictures.
+
+--------------------------------------------------------------------------------
+ANSWER 1:
+--------------------------------------------------------------------------------
+Proposed an implementation plan for a Python-based 2D console graphics editor using a clean, interactive text menu system with ANSI colors, coordinate axes, and support for shapes (Line using Bresenham's, Circle using Midpoint algorithm, Rectangle, and Triangle) and operations (add, delete, modify, save/load, and display).
+
+
+================================================================================
+PROMPT 2:
+================================================================================
+give the code
+
+--------------------------------------------------------------------------------
+ANSWER 2:
+--------------------------------------------------------------------------------
+Created the Python implementation:
+- Main File: 'graphics_editor.py' (implements shape classes, dynamic canvas rendering, ANSI menus, and file serialization).
+- Test File: 'test_graphics.py' (implements unit tests for geometry calculations and clipping).
+- Walkthrough: 'walkthrough.md' (documents setup, interactive commands, and how to execute tests).
+
+
+================================================================================
+PROMPT 3:
+================================================================================
+Problem Statement: Write a 2d graphics editor in C using * and _.
+
+Write functions to draw a circle, rectangle, line, and triangle.
+You should be able to
+      add objects to the picture,
+      delete objects from the picture, and
+      modify objects in the picture.
+Use a 2d array of characters to store the picture.
+Write a function to display the picture.
+
+Additionally, you can use the ncurses package to create menus and draw pictures.
+
+--------------------------------------------------------------------------------
+ANSWER 3:
+--------------------------------------------------------------------------------
+Proposed a C-based implementation plan defining structures/unions for shape layouts, custom C coordinate plotting with bounds-checking, Bresenham drawing algorithms, dynamic grid allocation, and file database I/O for saving/loading canvases.
+
+
+================================================================================
+PROMPT 4:
+================================================================================
+give the code
+
+--------------------------------------------------------------------------------
+ANSWER 4:
+--------------------------------------------------------------------------------
+Created the C implementation:
+- Main File: 'graphics_editor.c' (implements resizable dynamic double-pointer grid buffers, struct-based Shape parameters, C standard line/circle math, standard I/O prompt helpers, file persistence, and CLI menu loops).
+- Walkthrough: 'walkthrough.md' (compilation commands for GCC/Clang/MSVC and execution instructions).
